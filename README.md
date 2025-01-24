@@ -27,4 +27,4 @@ This code implements a Smart Greenhouse system that uses various sensors and act
 **6.Interrupts and Timers:**  
 -Timer1 is used to periodically read the DHT11 sensor data.  
 -Timer2 is used for controlling the motor (fan) speed via PWM.  
--INT0 (external interrupt) handles button presses for toggling the display
+-INT0 (external interrupt) handles button presses for toggling the display.
