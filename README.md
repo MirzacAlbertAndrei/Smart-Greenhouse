@@ -19,7 +19,7 @@ This code implements a Smart Greenhouse system that uses various sensors and act
 
 **4.Motion Detection:**  
 -Uses an ultrasonic sensor to detect whether the door is closed or open.  
--If an object is detected, a buzzer and a LED are activated as an alert.
+-If the door is opened, a buzzer and a LED are activated as an alert.
 
 **5.Button-Activated Display Toggle:**  
 -A button toggles the display to show either temperature or humidity on the 7-segment display.
