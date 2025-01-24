@@ -38,7 +38,7 @@ volatile bool showHumidityFlag = false;
 //Soil moisture sensor
 #define SENSOR_PWR_PIN PB0  //8  //For protection
 #define SOIL_SENSOR_PIN A0
-#define SOIL_THRESHOLD 50 
+#define SOIL_THRESHOLD 200
 #define SENSOR_CHECK_INTERVAL 30000 //30 sec
 
 //Buzzer
@@ -47,8 +47,7 @@ volatile bool showHumidityFlag = false;
 //Motion sensor
 #define TRIG_PIN PB4 //12
 #define ECHO_PIN PB3 //11
-#define DIST_THRESHOLD_LOW 10 //cm
-#define DIST_THRESHOLD_HIGH 15 //cm
+#define DIST_THRESHOLD_LOW 15 //cm
 uint8_t state_motion = 1;
 
 //LiquidCrystal_I2C diplay
@@ -308,7 +307,7 @@ void detect_object(void) {
 
     uint32_t distance = (count / 2) * 0.0343;
 
-    if (distance >= DIST_THRESHOLD_LOW && distance <= DIST_THRESHOLD_HIGH) {
+    if (distance >= DIST_THRESHOLD_LOW ) {
         if (state_motion == 1) {
             PORTB |= (1 << BUZZER_PIN);
             
