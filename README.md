@@ -1,11 +1,11 @@
 # Smart-Greenhouse
-Smart Greenhouse using Arduino with Registers, PWM, Timers, and ISRs
+**Smart Greenhouse using Arduino with Registers, PWM, Timers, and ISRs**
 
 This code implements a Smart Greenhouse system that uses various sensors and actuators to monitor and control environmental conditions inside the greenhouse. This utilizes Arduino's hardware features, such as interrupts, timers, and direct register manipulation, to achieve efficient control.
 
 Key Components & Features:
 
-1.DHT11 Temperature and Humidity Sensor:  
+**1.DHT11 Temperature and Humidity Sensor:**  
 -Reads temperature and humidity data.  
 -Data is displayed on a 4-digit 7-segment display and can be toggled between temperature and humidity using a button.
 
