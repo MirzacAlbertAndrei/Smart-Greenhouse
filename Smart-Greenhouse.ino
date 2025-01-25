@@ -38,7 +38,7 @@ volatile bool showHumidityFlag = false;
 //Soil moisture sensor
 #define SENSOR_PWR_PIN PB0  //8  //For protection
 #define SOIL_SENSOR_PIN A0
-#define SOIL_THRESHOLD 200
+#define SOIL_THRESHOLD 250
 #define SENSOR_CHECK_INTERVAL 30000 //30 sec
 
 //Buzzer
