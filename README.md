@@ -5,7 +5,7 @@ This code implements a Smart Greenhouse system that uses various sensors and act
 
 **Key Components & Features:**
 
-**1.DHT11 Temperature and Humidity Sensor:**  
+**1.Temperature and Humidity Sensor:**  
 -Reads temperature and humidity data.  
 -Data is displayed on a 4-digit 7-segment display and can be toggled between temperature and humidity using a button.
 
