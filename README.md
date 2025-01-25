@@ -14,7 +14,7 @@ This code implements a Smart Greenhouse system that uses various sensors and act
 -If the soil moisture is below a threshold, it activates a water pump for a preset duration.
 
 **3.Water Pump:**
--It is activated when the soil moisture level drops below a predefined threshold.   
+-It is activated when the soil moisture level drops below a predefined threshold.     
 -It runs for a fixed duration to irrigate the soil and then stops automatically.
 
 **4.Fan Control:**  
