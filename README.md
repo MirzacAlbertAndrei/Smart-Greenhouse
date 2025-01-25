@@ -13,18 +13,22 @@ This code implements a Smart Greenhouse system that uses various sensors and act
 -Reads soil moisture levels.  
 -If the soil moisture is below a threshold, it activates a water pump for a preset duration.
 
-**3.Fan Control:**  
+**3.Water Pump:**
+-It is activated when the soil moisture level drops below a predefined threshold.   
+-It runs for a fixed duration to irrigate the soil and then stops automatically.
+
+**4.Fan Control:**  
 -A PWM-controlled fan is used to maintain optimal temperature and humidity.  
 -Fan speed is adjusted based on temperature and humidity readings.
 
-**4.Motion Detection:**  
+**5.Motion Detection:**  
 -Uses an ultrasonic sensor to detect whether the door is closed or open.  
 -If the door is opened, a buzzer and a LED are activated as an alert.
 
-**5.Button-Activated Display Toggle:**  
+**6.Button-Activated Display Toggle:**  
 -A button toggles the display to show either temperature or humidity on the 7-segment display.
 
-**6.Interrupts and Timers:**  
+**7.Interrupts and Timers:**  
 -Timer1 is used to periodically read the DHT11 sensor data.  
 -Timer2 is used for controlling the motor (fan) speed via PWM.  
 -INT0 (external interrupt) handles button presses for toggling the display.
